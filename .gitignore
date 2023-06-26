@@ -1,0 +1,9 @@
+.DS_Store
+venv/
+.breakpoints
+.cache/
+.config/
+.replit
+.upm/
+replit*
+__pycache__/

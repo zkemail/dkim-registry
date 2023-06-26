@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dkim List</title>
+  </head>
+  <body>
+    <h1>Dkim List</h1>
+    <ul>
+      {% for dkim in dkims %}
+        <li><a href="/api/dkim/?domain={{ dkim.domain }}">{{ dkim.domain }}</a></li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
